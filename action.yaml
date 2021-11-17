@@ -1,0 +1,12 @@
+# action.yaml
+name: 'Test Github Action'
+description: 'Github action for testing - manily to liniting yaml files for k8s config'
+branding:
+  icon: 'sliders'
+  color: 'green'
+outputs:
+  firebasectl_output:
+    description: 'Output of test container'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
